@@ -1,0 +1,49 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files and netlist XML
+*.xml
+#*.csv
+
+# MacOS files
+.DS_Store
+
+# Windows files
+[Dd]esktop.ini
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+
+# Library caches etc.
+*-cache.lib
+
+# Zipped up Gerber files
+*.zip
+
+# FreeCAD backup files
+*.FCStd?
+
+# Also ignore IntelliJ
+.idea/
