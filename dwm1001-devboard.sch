@@ -192,12 +192,12 @@ $EndComp
 $Comp
 L Device:LED D9
 U 1 1 602E3ACD
-P 10300 1750
-F 0 "D9" V 10339 1632 50  0000 R CNN
-F 1 "Green" V 10248 1632 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10300 1750 50  0001 C CNN
-F 3 "~" H 10300 1750 50  0001 C CNN
-	1    10300 1750
+P 10300 1450
+F 0 "D9" V 10339 1332 50  0000 R CNN
+F 1 "Green" V 10248 1332 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10300 1450 50  0001 C CNN
+F 3 "~" H 10300 1450 50  0001 C CNN
+	1    10300 1450
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -222,36 +222,32 @@ F 3 "~" H 7700 1250 50  0001 C CNN
 	1    7700 1250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10300 1250 10300 1150
-Wire Wire Line
-	10300 1550 10300 1600
 $Comp
 L Device:R R6
 U 1 1 602FCEEC
-P 10300 2150
-F 0 "R6" H 10370 2196 50  0000 L CNN
-F 1 "47" H 10370 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10230 2150 50  0001 C CNN
-F 3 "~" H 10300 2150 50  0001 C CNN
-	1    10300 2150
+P 10300 1850
+F 0 "R6" H 10370 1896 50  0000 L CNN
+F 1 "47" H 10370 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10230 1850 50  0001 C CNN
+F 3 "~" H 10300 1850 50  0001 C CNN
+	1    10300 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 1900 10300 2000
+	10300 1600 10300 1700
 $Comp
 L power:GND #PWR024
 U 1 1 602FDB96
-P 10300 2400
-F 0 "#PWR024" H 10300 2150 50  0001 C CNN
-F 1 "GND" H 10305 2227 50  0000 C CNN
-F 2 "" H 10300 2400 50  0001 C CNN
-F 3 "" H 10300 2400 50  0001 C CNN
-	1    10300 2400
+P 10300 2100
+F 0 "#PWR024" H 10300 1850 50  0001 C CNN
+F 1 "GND" H 10305 1927 50  0000 C CNN
+F 2 "" H 10300 2100 50  0001 C CNN
+F 3 "" H 10300 2100 50  0001 C CNN
+	1    10300 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 2300 10300 2400
+	10300 2000 10300 2100
 $Comp
 L power:GND #PWR018
 U 1 1 6030F493
@@ -359,21 +355,6 @@ Wire Wire Line
 	5300 4450 4950 4450
 Wire Wire Line
 	4950 4550 5300 4550
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 6036CD3F
-P 9350 4300
-F 0 "JP3" H 9350 4075 50  0000 C CNN
-F 1 "SFDLED" H 9350 4166 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9350 4300 50  0001 C CNN
-F 3 "~" H 9350 4300 50  0001 C CNN
-	1    9350 4300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9500 3900 9600 3900
-Wire Wire Line
-	9500 4300 9600 4300
 Wire Wire Line
 	9900 3900 10000 3900
 Wire Wire Line
@@ -396,7 +377,7 @@ F 3 "~" H 7550 4250 50  0001 C CNN
 	1    7550 4250
 	-1   0    0    -1  
 $EndComp
-Text Label 8850 3900 0    50   ~ 0
+Text Label 9200 3900 0    50   ~ 0
 GPIO0
 $Comp
 L Connector:USB_B_Micro J1
@@ -538,12 +519,8 @@ F 3 "" H 4050 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 2350 4050 2500
-Wire Wire Line
-	8850 3900 9200 3900
-Text Label 8850 4300 0    50   ~ 0
+Text Label 9200 4300 0    50   ~ 0
 GPIO1
-Wire Wire Line
-	8850 4300 9200 4300
 $Comp
 L power:GND #PWR025
 U 1 1 603A59F4
@@ -577,25 +554,10 @@ F 3 "~" H 10150 4650 50  0001 C CNN
 	1    10150 4650
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 60380271
-P 9350 4650
-F 0 "JP4" H 9350 4425 50  0000 C CNN
-F 1 "RXLED" H 9350 4516 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9350 4650 50  0001 C CNN
-F 3 "~" H 9350 4650 50  0001 C CNN
-	1    9350 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9500 4650 9600 4650
 Wire Wire Line
 	10000 4650 9900 4650
-Text Label 8850 4650 0    50   ~ 0
+Text Label 9200 4650 0    50   ~ 0
 GPIO2
-Wire Wire Line
-	8850 4650 9200 4650
 Wire Wire Line
 	10300 4650 10450 4650
 Wire Wire Line
@@ -625,25 +587,10 @@ F 3 "~" H 10150 5050 50  0001 C CNN
 	1    10150 5050
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP5
-U 1 1 6038D1C3
-P 9350 5050
-F 0 "JP5" H 9350 4825 50  0000 C CNN
-F 1 "TXLED" H 9350 4916 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9350 5050 50  0001 C CNN
-F 3 "~" H 9350 5050 50  0001 C CNN
-	1    9350 5050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9500 5050 9600 5050
 Wire Wire Line
 	10000 5050 9900 5050
-Text Label 8850 5050 0    50   ~ 0
+Text Label 9200 5050 0    50   ~ 0
 GPIO3
-Wire Wire Line
-	8850 5050 9200 5050
 Wire Wire Line
 	10300 5050 10450 5050
 Connection ~ 10450 5050
@@ -1174,28 +1121,6 @@ Wire Wire Line
 	8950 1700 8950 1800
 Wire Wire Line
 	8950 2100 8950 2200
-$Comp
-L Jumper:SolderJumper_2_Open JP6
-U 1 1 60361656
-P 10300 1400
-F 0 "JP6" V 10254 1468 50  0000 L CNN
-F 1 "PWRLED" V 10345 1468 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10300 1400 50  0001 C CNN
-F 3 "~" H 10300 1400 50  0001 C CNN
-	1    10300 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 603623E7
-P 9350 3900
-F 0 "JP2" H 9350 3675 50  0000 C CNN
-F 1 "RXOKLED" H 9350 3766 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9350 3900 50  0001 C CNN
-F 3 "~" H 9350 3900 50  0001 C CNN
-	1    9350 3900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3050 7350 3050 6900
 Wire Wire Line
@@ -1258,4 +1183,16 @@ Text Label 7050 5450 2    50   ~ 0
 31
 Text Label 4450 4050 2    50   ~ 0
 31
+Text Notes 8950 5100 0    50   ~ 0
+RXOK\n\n\n\n\nSFD\n\n\n\n\nRX\n\n\n\n\nTX
+Wire Wire Line
+	9200 3900 9600 3900
+Wire Wire Line
+	9200 4300 9600 4300
+Wire Wire Line
+	9200 4650 9600 4650
+Wire Wire Line
+	9200 5050 9600 5050
+Wire Wire Line
+	10300 1150 10300 1300
 $EndSCHEMATC
