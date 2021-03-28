@@ -25,10 +25,6 @@ To order the PCB made, just zip up all files in `gerber/` folder and send to fab
   [Joan The Spark](https://forum.kicad.info/u/Joan_Sparky) distributed under GNU General Public License v2.0. 
   Source: [Kicad forum](https://forum.kicad.info/t/polyfuse-3d-models/6859), [direct link](https://kicad-info.s3-us-west-2.amazonaws.com/original/2X/6/6d10c55baa8ffbd4a3f9c269ba751e2fab07bd70.stp)
 
-# Dependencies
-
-* _KF141V-6P_P2.54mm_ model (optional, only for 3D rendering in KiCAD)
-
 ## BOM
 
 |Designator|Package                                     |Quantity|Value                             |
