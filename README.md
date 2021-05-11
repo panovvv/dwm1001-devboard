@@ -27,31 +27,31 @@ To order the PCB made, just zip up all files in `gerber/` folder and send to fab
 
 ## BOM
 
-|Designator|Package                                     |Quantity|Value                             |
-|----------|--------------------------------------------|--------|----------------------------------|
-|F2,F1     |Fuse 1812 (4532 Metric)                     |2       |0.5A PTC                          |
-|C2,C1     |Capacitor 0603 (1608 Metric)                |2       |22p                               |
-|Y1        |HC49-SD SMD Crystal Oscillator              |1       |12MHz                             |
-|U1        |SOIC-16                                     |1       |CH340G                            |
-|J1        |Micro USB Type B, SMD                       |1       |Micro USB B                       |
-|SW1, SW2  |SPST Pushbutton 6x6mm, SMD                  |2       |WKUP, RST                         |
-|U3        |SOT-223-3                                   |1       |AMS1117-3.3                       |
-|U2        |DecaWave DWM1001                            |1       |DWM1001                           |
-|R1        |Resistor 0805 (2012 Metric)                 |1       |100k                              |
-|Q2,Q1     |SuperSOT-3                                  |2       |FDN430P                           |
-|JP1       |2.54mm pitch Male Pin Header 1x02 Vertical  |1       |3.3V Current probe                |
-|J7        |2.54mm pitch Female Pin Header 1x10 Vertical|1       |Arduino Stackable type if possible|
-|J6        |2.54mm pitch Female Pin Header 1x08 Vertical|1       |Arduino Stackable type if possible|
-|J4        |2.54mm pitch Female Pin Header 1x15 Vertical|1       |Arduino Stackable type if possible|
-|J5        |Tag-Connect TC2030-IDC                      |1       |Tag-Connect TC2030 SWD            |
-|J2        |2.54mm pitch Male Pin Header 1x04 Vertical  |1       |SWD Pin Header Male               |
-|D4        |SMA or SMB Diode                            |1       |SMBJ3.3A                          |
-|D1 - D3   |SMA or SMB Diode                            |3       |SMBJ5.0A                          |
-|C5,C3     |Capacitor 0805 (2012 Metric)                |2       |100n                              |
-|C7,C6,C4  |Capacitor 0805 (2012 Metric)                |3       |10u                               |
-|D9        |LED 0603 (1608 Metric)                      |1       |Green                             |
-|D8,D6     |LED 0603 (1608 Metric)                      |2       |Red                               |
-|D7,D5     |LED 0603 (1608 Metric)                      |2       |Blue                              |
-|R6        |Resistor 0805 (2012 Metric)                 |1       |47 Ohm, for green LED @ 3.3V      |
-|R5,R3     |Resistor 0805 (2012 Metric)                 |2       |75 Ohm, for red LED @ 3.3V        |
-|R4,R2     |Resistor 0805 (2012 Metric)                 |2       |15 Ohm, for blue LED @ 3.3V       |
+|Designator|Package                                     |Quantity|Value                                |
+|----------|--------------------------------------------|--------|-------------------------------------|
+|F2,F1     |1812 (4532 Metric)                          |2       |0.5A PTC fuse                        |
+|C2,C1     |0603 (1608 Metric)                          |2       |22pF ceramic capacitor               |
+|Y1        |HC49-SD SMD                                 |1       |12MHz crystal oscillator             |
+|U1        |SOIC-16                                     |1       |CH340G                               |
+|J1        |Micro USB Type B, SMD                       |1       |Micro USB B connector, female        |
+|SW1, SW2  |SPST Pushbutton 6x6mm, SMD                  |2       |WKUP, RST buttons                    |
+|U3        |SOT-223-3                                   |1       |AMS1117-3.3 3.3V voltage regulator   |
+|U2        |DecaWave DWM1001                            |1       |DWM1001                              |
+|R1        |0805 (2012 Metric)                          |1       |100kΩ resistor                       |
+|Q2,Q1     |SuperSOT-3                                  |2       |FDN430P P-MOSFET                     |
+|JP1       |2.54mm pitch Male Pin Header 1x02 Vertical  |1       |3.3V Current probe jumper            |
+|J7        |2.54mm pitch Female Pin Header 1x10 Vertical|1       |Arduino Stackable type if possible   |
+|J6        |2.54mm pitch Female Pin Header 1x08 Vertical|1       |Arduino Stackable type if possible   |
+|J4        |2.54mm pitch Female Pin Header 1x15 Vertical|1       |Arduino Stackable type if possible   |
+|J5        |Tag-Connect TC2030-IDC                      |1       |Tag-Connect TC2030 SWD               |
+|J2        |2.54mm pitch Male Pin Header 1x04 Vertical  |1       |SWD Pin Header Male                  |
+|D4        |SMA or SMB Diode                            |1       |SMBJ3.3A Transient voltage suppressor|
+|D1 - D3   |SMA or SMB Diode                            |3       |SMBJ5.0A Transient voltage suppressor|
+|C5,C3     |0805 (2012 Metric)                          |2       |100nF ceramic capacitor              |
+|C7,C6,C4  |0805 (2012 Metric)                          |3       |10µF ceramic capacitor               |
+|D9        |0603 (1608 Metric)                          |1       |Green LED                            |
+|D8,D6     |0603 (1608 Metric)                          |2       |Red LED                              |
+|D7,D5     |0603 (1608 Metric)                          |2       |Blue LED                             |
+|R6        |0805 (2012 Metric)                          |1       |47Ω resistor, for green LED @ 3.3V   |
+|R5,R3     |0805 (2012 Metric)                          |2       |75Ω resistor, for red LED @ 3.3V     |
+|R4,R2     |0805 (2012 Metric)                          |2       |15Ω resistor, for blue LED @ 3.3V    |
