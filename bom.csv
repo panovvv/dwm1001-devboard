@@ -15,8 +15,8 @@ J6;2.54mm pitch Female Pin Header 1x08 Vertical;1;Arduino Stackable type if poss
 J4;2.54mm pitch Female Pin Header 1x15 Vertical;1;Arduino Stackable type if possible
 J5;Tag-Connect TC2030-IDC;1;Tag-Connect TC2030 SWD
 J2;2.54mm pitch Male Pin Header 1x04 Vertical;1;SWD Pin Header Male
-D4;SMA or SMB Diode;1;SMBJ3.3A Transient voltage suppressor
-D1 - D3;SMA or SMB Diode;3;SMBJ5.0A Transient voltage suppressor
+D4;SMA or SMB Diode;1;SMAJ3.3A or SMBJ3.3A Transient voltage suppressor
+D1 - D3;SMA or SMB Diode;3;SMAJ5.0A or SMBJ5.0A Transient voltage suppressor
 C5,C3;0805 (2012 Metric);2;100nF ceramic capacitor
 C7,C6,C4;0805 (2012 Metric);3;10µF ceramic capacitor
 D9;0603 (1608 Metric);1;Green LED
