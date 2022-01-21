@@ -3,6 +3,8 @@ Breakout board for DWM1001 UWB module.
 
 ![10_raytrace_right.png](https://github.com/panovvv/dwm1001-devboard/raw/main/renders/10_raytrace_right.png)
 
+[> Demo video here <](https://www.youtube.com/watch?v=SorOhWdywFg)
+
 Intended for easy exploration:
 * Modular thanks to compatibility with Arduino Uno shield footprint.
 * Modules can be battery-powered using a simple DIY battery shield.
